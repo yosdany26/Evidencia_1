@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yosdany Fanay - Servicios Financieros</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">
+      <span class="theme-icon">🌙</span>
+    </button>
+
+    <div class="card" id="businessCard">
+      <div class="card-header">
+        <div class="avatar">
+          <img src="https://via.placeholder.com/150" alt="Yosdany Fanay" id="avatarImg">
+        </div>
+        <div class="header-info">
+          <h1 id="userName">Cargando nombre...</h1>
+          <p class="title" id="userTitle">Cargando título...</p>
+          <p class="location" id="userLocation">📍 Cargando ubicación...</p>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <h2>Sobre mí</h2>
+        <p id="userBio" class="bio">Cargando biografía profesional...</p>
+      </div>
+
+      <div class="card-section">
+        <h2>Contacto Profesional</h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="icon">📧</span>
+            <span id="userEmail">Cargando...</span>
+            <button id="copyEmailBtn" class="btn btn-small">Copiar</button>
+          </div>
+          <div class="contact-item">
+            <span class="icon">📞</span>
+            <span id="userPhone">Cargando...</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <h2>Especialidades Financieras</h2>
+        <div id="skillsList" class="skills-list">
+          Cargando habilidades...
+        </div>
+        <button id="toggleSkills" class="btn btn-secondary">Ver más</button>
+      </div>
+
+      <div class="card-section">
+        <h2>Conectar</h2>
+        <div id="socialLinks" class="social-links">
+          Cargando enlaces...
+        </div>
+      </div>
+
+      <div class="card-section">
+        <h2>Métricas de Rendimiento</h2>
+        <div id="stats" class="stats-grid">
+          Cargando estadísticas...
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>Desarrollado con ❤️ por Yosdany Fanay</p>
+      <p class="small">Proyecto de Servicios Financieros - ES2023 JS</p>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast">
+    <span id="toastMessage"></span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
